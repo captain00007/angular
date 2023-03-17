@@ -1,0 +1,15 @@
+<div *ngIf="article" class="articles-wrapper">
+    <h1>Article</h1>
+    <div class="card">
+        <!--<img src="img_avatar.png" alt="Avatar" style="width:100%">-->
+        <div class="container">
+          <h4><b>Tìtulo: {{ article.title }}</b></h4> 
+          <p>Details: {{ article.description }}</p> 
+          <p>Write by: {{ article.owner}}</p>
+        </div>
+        <div class="btn-action">
+            <button routerLink="/articles/{{ article.id}}/edit">Edit</button>
+            <button (click)="deleteItem(article!)">Delete</button>
+        </div>
+    </div>
+</div>

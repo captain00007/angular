@@ -1,0 +1,10 @@
+{
+  "articles": [
+    {
+      "id": 4,
+      "title": "Learning Bootstrap edited twice",
+      "description": "This article is about bootstrap edited framework",
+      "owner": "Georges"
+    }
+  ]
+}

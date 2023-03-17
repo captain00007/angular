@@ -1,0 +1,5 @@
+<div *ngIf="article">
+    <p>Updating article {{ article.title }}</p>
+    <app-article-form (submit)="submitData($event)" [article]="article"></app-article-form>
+</div>
+
